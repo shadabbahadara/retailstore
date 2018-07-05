@@ -1,0 +1,14 @@
+Bonus Activities
+• Create scripts, e.g. Maven, etc. to:
+o build the project from the command-line
+	mvn clean install
+o run static code analysis such as linting
+	mvn checkstyle:checkstyle
+	output ../retailstore/target/site/checkstyle.html
+o run unit tests and code coverage
+	mvn package
+	output: ../retailstore/target/site/jacoco/index.html
+
+• SonarQube report for the code showing its quality summary
+	find the attached snapshot of sonarLint
+	../retailstore/SonarQubeReport.PNG
