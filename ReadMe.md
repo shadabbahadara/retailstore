@@ -6,7 +6,7 @@ step 1 : checkout the project from github
 step 2 : install maven 3 in your system and set MAVEN_HOME environment variable  
 step 3 : build the project  
 mvn clean install  
-step 4 : use the classes in generated jar file  
+step 4 : use the APIs in generated jar file  
 
 ## How to execute the unit tests and generate code coverage report without IDE
 please follow the below steps:  
